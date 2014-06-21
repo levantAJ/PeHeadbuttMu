@@ -1,21 +1,20 @@
 WorldCupX
 =========
 
-<div>View the WorlCup21014's information!</div>
-<div>Matches - Teams - Player - Top Scored</div>
-<div>Swift programming language!</div>
-<div>https://twitter.com/levantAJ/status/480236599477690368</div>
+<div>The game about WorldCup 2014!</div>
+<div>Portugal's Pepe sent off after heatbutting Germany's Muller </div>
+<div>https://twitter.com/levantAJ/status/478821086528671745</div>
 
 ## Image
-![Alt text](/cover.png?raw=true "WorldCupX 2014")
+![Alt text](https://pbs.twimg.com/media/BqUdPVlCUAAYEyR.png "PeHeadbuttMu WorldCup 2014")
 
 ## Video
-[![Vehicles Bet - Full video for the game](http://img.youtube.com/vi/GHtwlCbvLMA/0.jpg)](https://www.youtube.com/watch?v=GHtwlCbvLMA)
+[![PeHeadbuttMu - Full video for the game](http://img.youtube.com/vi/4gPvfalq0Bw/0.jpg)](https://www.youtube.com/watch?v=4gPvfalq0Bw)
 
 ## Use
-1. View matches
-2. View teams - players in a team
-3. View top scored
+1. Start game
+2. Tap and tap, get as many points as possible within 27 seconds!
+3. View your scored
 
 ## License
 <div>https://twitter.com/levantAJ</div>
