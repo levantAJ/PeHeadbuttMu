@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gIV-Pk-p1e"/>
+                        <viewControllerLayoutGuide type="bottom" id="opr-N2-7Yn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="6yN-a3-XHx">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pepe 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Og6-yX-vZu">
+                                <rect key="frame" x="89" y="201" width="107" height="108"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="miller 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="33V-ga-kMt">
+                                <rect key="frame" x="169" y="204" width="79" height="103"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pepe 1.png" translatesAutoresizingMaskIntoConstraints="NO" id="eoS-q4-cyd">
+                                <rect key="frame" x="72" y="171" width="71" height="136"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="miller 1.png" translatesAutoresizingMaskIntoConstraints="NO" id="CPS-4P-xpz">
+                                <rect key="frame" x="169" y="205" width="70" height="103"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="tap to start" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciO-jr-hc1">
+                                <rect key="frame" x="0.0" y="405" width="320" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D7T-ry-C9m">
+                                <rect key="frame" x="0.0" y="85" width="320" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HO8-81-Gf2">
+                                <rect key="frame" x="0.0" y="30" width="320" height="57"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redcard.png" translatesAutoresizingMaskIntoConstraints="NO" id="zTc-1P-22Q">
+                                <rect key="frame" x="161" y="189" width="21" height="27"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bubble.png" translatesAutoresizingMaskIntoConstraints="NO" id="M1u-RG-SCN">
+                                <rect key="frame" x="196" y="171" width="52" height="39"/>
+                            </imageView>
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fut-47-a4t">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Soh-oU-pUU">
+                                        <rect key="frame" x="36" y="156" width="248" height="157"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cB-Ox-MXj">
+                                                <rect key="frame" x="0.0" y="124" width="248" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <state key="normal" title="New Game">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="newGameTouchInSide:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VBb-1I-WD2"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Game Over" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jja-cw-n4a">
+                                                <rect key="frame" x="0.0" y="0.0" width="248" height="38"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBD-XC-xp9">
+                                                <rect key="frame" x="0.0" y="33" width="248" height="91"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Me-Hv-sUs">
+                                <rect key="frame" x="270" y="430" width="30" height="30"/>
+                                <state key="normal" title="AJ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AJ:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="O0j-rA-u8M"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnAJ" destination="6Me-Hv-sUs" id="bqr-3B-JvE"/>
+                        <outlet property="btnNewGame" destination="7cB-Ox-MXj" id="8dR-Ip-qsm"/>
+                        <outlet property="imgBubble" destination="M1u-RG-SCN" id="uNw-nP-phd"/>
+                        <outlet property="imgMillerFirst" destination="CPS-4P-xpz" id="WcA-NS-EQz"/>
+                        <outlet property="imgMillerSecond" destination="33V-ga-kMt" id="xue-CB-VfK"/>
+                        <outlet property="imgPepeFirst" destination="eoS-q4-cyd" id="vqD-GJ-2v2"/>
+                        <outlet property="imgPepeSecond" destination="Og6-yX-vZu" id="Whn-GW-hoX"/>
+                        <outlet property="imgPow" destination="zTc-1P-22Q" id="z3G-Ft-50J"/>
+                        <outlet property="lblPointed" destination="lBD-XC-xp9" id="SCM-vc-Iza"/>
+                        <outlet property="lblPoints" destination="HO8-81-Gf2" id="ksO-19-qz2"/>
+                        <outlet property="lblTapToStart" destination="ciO-jr-hc1" id="14B-UM-8xw"/>
+                        <outlet property="lblTimer" destination="D7T-ry-C9m" id="xyy-UE-MNo"/>
+                        <outlet property="lblTitle" destination="Jja-cw-n4a" id="6My-70-kVr"/>
+                        <outlet property="viewGameOver" destination="Soh-oU-pUU" id="J3a-bC-jcf"/>
+                        <outlet property="viewParent" destination="Fut-47-a4t" id="cdX-wr-kmd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background.png" width="480" height="320"/>
+        <image name="bubble.png" width="1438" height="1092"/>
+        <image name="miller 1.png" width="76" height="119"/>
+        <image name="miller 2.png" width="87" height="116"/>
+        <image name="pepe 1.png" width="74" height="157"/>
+        <image name="pepe 2.png" width="132" height="109"/>
+        <image name="redcard.png" width="462" height="597"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

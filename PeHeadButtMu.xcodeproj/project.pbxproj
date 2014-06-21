@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2114A71B1950211C00D7E9D9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2114A7111950211C00D7E9D9 /* background.png */; };
+		2114A71C1950211C00D7E9D9 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 2114A7121950211C00D7E9D9 /* bubble.png */; };
+		2114A71D1950211C00D7E9D9 /* chat_bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 2114A7131950211C00D7E9D9 /* chat_bubble.png */; };
+		2114A71E1950211C00D7E9D9 /* miller 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2114A7141950211C00D7E9D9 /* miller 1.png */; };
+		2114A71F1950211C00D7E9D9 /* miller 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2114A7151950211C00D7E9D9 /* miller 2.png */; };
+		2114A7201950211C00D7E9D9 /* miller-pepe.png in Resources */ = {isa = PBXBuildFile; fileRef = 2114A7161950211C00D7E9D9 /* miller-pepe.png */; };
+		2114A7211950211C00D7E9D9 /* pepe 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2114A7171950211C00D7E9D9 /* pepe 1.png */; };
+		2114A7221950211C00D7E9D9 /* pepe 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2114A7181950211C00D7E9D9 /* pepe 2.png */; };
+		2114A7231950211C00D7E9D9 /* pow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2114A7191950211C00D7E9D9 /* pow.png */; };
+		2114A7241950211C00D7E9D9 /* redcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 2114A71A1950211C00D7E9D9 /* redcard.png */; };
+		2114A7261950293600D7E9D9 /* 04B_19__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2114A7251950293600D7E9D9 /* 04B_19__.TTF */; };
+		21622BF31950207900205603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21622BF21950207900205603 /* Foundation.framework */; };
+		21622BF51950207900205603 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21622BF41950207900205603 /* CoreGraphics.framework */; };
+		21622BF71950207900205603 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21622BF61950207900205603 /* UIKit.framework */; };
+		21622BFD1950207900205603 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21622BFB1950207900205603 /* InfoPlist.strings */; };
+		21622BFF1950207A00205603 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21622BFE1950207A00205603 /* main.m */; };
+		21622C031950207A00205603 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21622C021950207A00205603 /* AppDelegate.m */; };
+		21622C061950207A00205603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21622C041950207A00205603 /* Main.storyboard */; };
+		21622C091950207A00205603 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21622C081950207A00205603 /* ViewController.m */; };
+		21622C0B1950207A00205603 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21622C0A1950207A00205603 /* Images.xcassets */; };
+		21622C121950207A00205603 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21622C111950207A00205603 /* XCTest.framework */; };
+		21622C131950207A00205603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21622BF21950207900205603 /* Foundation.framework */; };
+		21622C141950207A00205603 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21622BF61950207900205603 /* UIKit.framework */; };
+		21622C1C1950207A00205603 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21622C1A1950207A00205603 /* InfoPlist.strings */; };
+		21622C1E1950207A00205603 /* PeHeadButtMuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21622C1D1950207A00205603 /* PeHeadButtMuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21622C151950207A00205603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21622BE71950207900205603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21622BEE1950207900205603;
+			remoteInfo = PeHeadButtMu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2114A7111950211C00D7E9D9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		2114A7121950211C00D7E9D9 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
+		2114A7131950211C00D7E9D9 /* chat_bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_bubble.png; sourceTree = "<group>"; };
+		2114A7141950211C00D7E9D9 /* miller 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "miller 1.png"; sourceTree = "<group>"; };
+		2114A7151950211C00D7E9D9 /* miller 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "miller 2.png"; sourceTree = "<group>"; };
+		2114A7161950211C00D7E9D9 /* miller-pepe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "miller-pepe.png"; sourceTree = "<group>"; };
+		2114A7171950211C00D7E9D9 /* pepe 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pepe 1.png"; sourceTree = "<group>"; };
+		2114A7181950211C00D7E9D9 /* pepe 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pepe 2.png"; sourceTree = "<group>"; };
+		2114A7191950211C00D7E9D9 /* pow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pow.png; sourceTree = "<group>"; };
+		2114A71A1950211C00D7E9D9 /* redcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcard.png; sourceTree = "<group>"; };
+		2114A7251950293600D7E9D9 /* 04B_19__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04B_19__.TTF; sourceTree = "<group>"; };
+		21622BEF1950207900205603 /* PeHeadButtMu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeHeadButtMu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21622BF21950207900205603 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		21622BF41950207900205603 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		21622BF61950207900205603 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		21622BFA1950207900205603 /* PeHeadButtMu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeHeadButtMu-Info.plist"; sourceTree = "<group>"; };
+		21622BFC1950207900205603 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21622BFE1950207A00205603 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21622C001950207A00205603 /* PeHeadButtMu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeHeadButtMu-Prefix.pch"; sourceTree = "<group>"; };
+		21622C011950207A00205603 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21622C021950207A00205603 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21622C051950207A00205603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21622C071950207A00205603 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21622C081950207A00205603 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21622C0A1950207A00205603 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21622C101950207A00205603 /* PeHeadButtMuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeHeadButtMuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21622C111950207A00205603 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		21622C191950207A00205603 /* PeHeadButtMuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeHeadButtMuTests-Info.plist"; sourceTree = "<group>"; };
+		21622C1B1950207A00205603 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21622C1D1950207A00205603 /* PeHeadButtMuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeHeadButtMuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21622BEC1950207900205603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21622BF51950207900205603 /* CoreGraphics.framework in Frameworks */,
+				21622BF71950207900205603 /* UIKit.framework in Frameworks */,
+				21622BF31950207900205603 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21622C0D1950207A00205603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21622C121950207A00205603 /* XCTest.framework in Frameworks */,
+				21622C141950207A00205603 /* UIKit.framework in Frameworks */,
+				21622C131950207A00205603 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2114A7101950211C00D7E9D9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2114A7111950211C00D7E9D9 /* background.png */,
+				2114A7121950211C00D7E9D9 /* bubble.png */,
+				2114A7131950211C00D7E9D9 /* chat_bubble.png */,
+				2114A7141950211C00D7E9D9 /* miller 1.png */,
+				2114A7151950211C00D7E9D9 /* miller 2.png */,
+				2114A7161950211C00D7E9D9 /* miller-pepe.png */,
+				2114A7171950211C00D7E9D9 /* pepe 1.png */,
+				2114A7181950211C00D7E9D9 /* pepe 2.png */,
+				2114A7191950211C00D7E9D9 /* pow.png */,
+				2114A71A1950211C00D7E9D9 /* redcard.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		21622BE61950207900205603 = {
+			isa = PBXGroup;
+			children = (
+				21622BF81950207900205603 /* PeHeadButtMu */,
+				21622C171950207A00205603 /* PeHeadButtMuTests */,
+				21622BF11950207900205603 /* Frameworks */,
+				21622BF01950207900205603 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21622BF01950207900205603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21622BEF1950207900205603 /* PeHeadButtMu.app */,
+				21622C101950207A00205603 /* PeHeadButtMuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21622BF11950207900205603 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21622BF21950207900205603 /* Foundation.framework */,
+				21622BF41950207900205603 /* CoreGraphics.framework */,
+				21622BF61950207900205603 /* UIKit.framework */,
+				21622C111950207A00205603 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21622BF81950207900205603 /* PeHeadButtMu */ = {
+			isa = PBXGroup;
+			children = (
+				21622C011950207A00205603 /* AppDelegate.h */,
+				21622C021950207A00205603 /* AppDelegate.m */,
+				21622C041950207A00205603 /* Main.storyboard */,
+				21622C071950207A00205603 /* ViewController.h */,
+				21622C081950207A00205603 /* ViewController.m */,
+				21622C0A1950207A00205603 /* Images.xcassets */,
+				21622BF91950207900205603 /* Supporting Files */,
+			);
+			path = PeHeadButtMu;
+			sourceTree = "<group>";
+		};
+		21622BF91950207900205603 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2114A7251950293600D7E9D9 /* 04B_19__.TTF */,
+				2114A7101950211C00D7E9D9 /* Images */,
+				21622BFA1950207900205603 /* PeHeadButtMu-Info.plist */,
+				21622BFB1950207900205603 /* InfoPlist.strings */,
+				21622BFE1950207A00205603 /* main.m */,
+				21622C001950207A00205603 /* PeHeadButtMu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21622C171950207A00205603 /* PeHeadButtMuTests */ = {
+			isa = PBXGroup;
+			children = (
+				21622C1D1950207A00205603 /* PeHeadButtMuTests.m */,
+				21622C181950207A00205603 /* Supporting Files */,
+			);
+			path = PeHeadButtMuTests;
+			sourceTree = "<group>";
+		};
+		21622C181950207A00205603 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21622C191950207A00205603 /* PeHeadButtMuTests-Info.plist */,
+				21622C1A1950207A00205603 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21622BEE1950207900205603 /* PeHeadButtMu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21622C211950207A00205603 /* Build configuration list for PBXNativeTarget "PeHeadButtMu" */;
+			buildPhases = (
+				21622BEB1950207900205603 /* Sources */,
+				21622BEC1950207900205603 /* Frameworks */,
+				21622BED1950207900205603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeHeadButtMu;
+			productName = PeHeadButtMu;
+			productReference = 21622BEF1950207900205603 /* PeHeadButtMu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21622C0F1950207A00205603 /* PeHeadButtMuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21622C241950207A00205603 /* Build configuration list for PBXNativeTarget "PeHeadButtMuTests" */;
+			buildPhases = (
+				21622C0C1950207A00205603 /* Sources */,
+				21622C0D1950207A00205603 /* Frameworks */,
+				21622C0E1950207A00205603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21622C161950207A00205603 /* PBXTargetDependency */,
+			);
+			name = PeHeadButtMuTests;
+			productName = PeHeadButtMuTests;
+			productReference = 21622C101950207A00205603 /* PeHeadButtMuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21622BE71950207900205603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ATteam;
+				TargetAttributes = {
+					21622C0F1950207A00205603 = {
+						TestTargetID = 21622BEE1950207900205603;
+					};
+				};
+			};
+			buildConfigurationList = 21622BEA1950207900205603 /* Build configuration list for PBXProject "PeHeadButtMu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21622BE61950207900205603;
+			productRefGroup = 21622BF01950207900205603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21622BEE1950207900205603 /* PeHeadButtMu */,
+				21622C0F1950207A00205603 /* PeHeadButtMuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21622BED1950207900205603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2114A7231950211C00D7E9D9 /* pow.png in Resources */,
+				2114A71E1950211C00D7E9D9 /* miller 1.png in Resources */,
+				21622C0B1950207A00205603 /* Images.xcassets in Resources */,
+				2114A7261950293600D7E9D9 /* 04B_19__.TTF in Resources */,
+				2114A7201950211C00D7E9D9 /* miller-pepe.png in Resources */,
+				2114A71D1950211C00D7E9D9 /* chat_bubble.png in Resources */,
+				2114A7211950211C00D7E9D9 /* pepe 1.png in Resources */,
+				2114A7221950211C00D7E9D9 /* pepe 2.png in Resources */,
+				2114A71B1950211C00D7E9D9 /* background.png in Resources */,
+				2114A71C1950211C00D7E9D9 /* bubble.png in Resources */,
+				21622BFD1950207900205603 /* InfoPlist.strings in Resources */,
+				2114A71F1950211C00D7E9D9 /* miller 2.png in Resources */,
+				21622C061950207A00205603 /* Main.storyboard in Resources */,
+				2114A7241950211C00D7E9D9 /* redcard.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21622C0E1950207A00205603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21622C1C1950207A00205603 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21622BEB1950207900205603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21622C091950207A00205603 /* ViewController.m in Sources */,
+				21622C031950207A00205603 /* AppDelegate.m in Sources */,
+				21622BFF1950207A00205603 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21622C0C1950207A00205603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21622C1E1950207A00205603 /* PeHeadButtMuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21622C161950207A00205603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21622BEE1950207900205603 /* PeHeadButtMu */;
+			targetProxy = 21622C151950207A00205603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21622BFB1950207900205603 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21622BFC1950207900205603 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		21622C041950207A00205603 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21622C051950207A00205603 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21622C1A1950207A00205603 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21622C1B1950207A00205603 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21622C1F1950207A00205603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21622C201950207A00205603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21622C221950207A00205603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeHeadButtMu/PeHeadButtMu-Prefix.pch";
+				INFOPLIST_FILE = "PeHeadButtMu/PeHeadButtMu-Info.plist";
+				PRODUCT_NAME = PeHeadButtMu;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		21622C231950207A00205603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeHeadButtMu/PeHeadButtMu-Prefix.pch";
+				INFOPLIST_FILE = "PeHeadButtMu/PeHeadButtMu-Info.plist";
+				PRODUCT_NAME = PeHeadButtMu;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		21622C251950207A00205603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PeHeadButtMu.app/PeHeadButtMu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeHeadButtMu/PeHeadButtMu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PeHeadButtMuTests/PeHeadButtMuTests-Info.plist";
+				PRODUCT_NAME = PeHeadButtMuTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		21622C261950207A00205603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PeHeadButtMu.app/PeHeadButtMu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeHeadButtMu/PeHeadButtMu-Prefix.pch";
+				INFOPLIST_FILE = "PeHeadButtMuTests/PeHeadButtMuTests-Info.plist";
+				PRODUCT_NAME = PeHeadButtMuTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21622BEA1950207900205603 /* Build configuration list for PBXProject "PeHeadButtMu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21622C1F1950207A00205603 /* Debug */,
+				21622C201950207A00205603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21622C211950207A00205603 /* Build configuration list for PBXNativeTarget "PeHeadButtMu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21622C221950207A00205603 /* Debug */,
+				21622C231950207A00205603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21622C241950207A00205603 /* Build configuration list for PBXNativeTarget "PeHeadButtMuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21622C251950207A00205603 /* Debug */,
+				21622C261950207A00205603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21622BE71950207900205603 /* Project object */;
+}
